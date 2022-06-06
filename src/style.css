@@ -1,0 +1,105 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.listContainer {
+  margin-top: 100px;
+  width: 65%;
+  box-shadow: 0 0 2px 2px rgb(139, 138, 138);
+}
+
+.title h3 {
+  font-size: 23px;
+}
+
+.title {
+  height: 50px;
+  margin: 0;
+  border-bottom: 1px solid rgb(202, 198, 198);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.addTask {
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid rgb(206, 201, 201);
+  padding: 0 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.p1 {
+  font-size: 20px;
+}
+
+.addTask > input {
+  border: none;
+}
+
+.addTask > input:focus {
+  outline: none !important;
+}
+
+.submit {
+  background-color: inherit;
+}
+
+.to-do-list {
+  padding-inline-start: 0;
+  margin: 0;
+}
+
+.to-do-list > * {
+  list-style: none;
+  height: 50px;
+  border-bottom: 1px solid rgb(196, 194, 194);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.to-do-list > * > div {
+  display: flex;
+  align-items: center;
+}
+
+.to-do-list > * > div > p {
+  white-space: nowrap;
+}
+
+.to-do-list > * > div > p:focus {
+  outline: none !important;
+  white-space: nowrap;
+}
+
+.check {
+  margin-right: 10px;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  background: inherit;
+  cursor: pointer;
+}
+
+.clear {
+  background-color: rgba(224, 219, 219, 0.534);
+  height: 50px;
+  font-size: 20px;
+  color: rgb(95, 94, 94);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
